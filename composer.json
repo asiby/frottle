@@ -1,0 +1,19 @@
+{
+    "name": "asiby/frottle",
+    "description": "A PHP library for throttling function calls.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdoulaye Siby",
+            "email": "maestro@abdoulaye.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ASiby\\": "./src",
+            "ASiby\\Frottle\\Tests\\": "./tests"
+        }
+    }
+}
